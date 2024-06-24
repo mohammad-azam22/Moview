@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+
+body {
+	background-color: #131720;
+	font-family: sans-serif;
+	color: white;
+}
+
+.active {
+	font-family: sans-serif;
+	font-weight: 900;
+}
+
+.topnav {
+	top: 0;
+	position: sticky;
+	opacity: 0.99;
+	overflow: hidden;
+	background-color: #131720;
+	padding: 10px;
+}
+
+.topnav a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+.topnav .search-container{
+	float: right;
+}
+
+#main-heading, #title{
+	margin-left: 1.5rem;
+}
+
+section {
+	margin: 1.5rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+form{
+	background-color: #151f30;
+	width: 250px;
+	height: 45px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin-right: 1.2rem;
+}
+
+input{
+	all: unset;
+	font: 15px system-ui;
+	color: white;
+	height: 100%;
+	width: 100%;
+	padding: 6px 9px;
+}
+
+.thumbnail{
+	height: 350px;
+	width: 280px;
+	border-radius: 20px;
+}
+
+.outer-div {
+	min-width: 20rem;
+	max-width: 23rem;
+}
+
+.column{
+	float: left;
+/*	width: 25%;*/
+	width: 100%;
+	padding: 10px;
+}
+
+.card{
+	border-radius: 20px;
+	padding: 15px;
+	text-align: center;
+	background-color: #151f30;
+	transition: 0.2s ease-in-out;
+}
+
+.card:hover{
+	box-shadow: #42E3FF 0px 0px 10px 1px;
+}
